@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600px;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.html{
+    height: 100%;
+}
+
+.kvadrat{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+                      url("https://picsum.photos/id/1/200/"), 
+                      url("https://picsum.photos/id/2/200/"),
+                      url("https://picsum.photos/id/3/200/"),
+                      url("https://picsum.photos/id/9/200/"),
+                      url("https://picsum.photos/id/5/200/"),
+                      url("https://picsum.photos/id/6/200/"),
+                      url("https://picsum.photos/id/7/200/"),
+                      url("https://picsum.photos/id/8/200/"),
+                      url("https://picsum.photos/id/4/200/");
+   
+    background-position: left center, left bottom, top left, top, top right, center center, right, bottom center, bottom right;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 250px;
+    font-size: 25px;
+    
+    
+}
